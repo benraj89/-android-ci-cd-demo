@@ -43,3 +43,11 @@ jobs:
       # Run unit tests
       - name: Run Unit Tests
         run: ./gradlew test
+
+      # Run instrumentation tests
+      - name: Run lint
+        run: ./gradlew lint
+
+      # Upload debug APK as artifact
+      - name: Build debug APK
+        run: ./gradlew assembleDebug
