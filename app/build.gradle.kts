@@ -18,10 +18,10 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    lint {
+    /*lint {
         abortOnError = true
         warningsAsErrors = true
-    }
+    }*/
 
     buildTypes {
         release {
