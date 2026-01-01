@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AndroidCICD</string>
+    <string name="android_ci_cd_demo">Android CI/CD Demo</string>
 </resources>
